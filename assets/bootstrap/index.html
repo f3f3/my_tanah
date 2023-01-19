@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<style>
+			.panel-title {
+				display: inline-block;
+				position: absolute;
+				right: 26px;
+			}
+		</style>
+    </head>
+    <body class="hold-transition skin-blue sidebar-mini">
+		<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<div class="container">
+			<h1>Dropdown in Popup</h1>
+				<div id="popover1" class="col-sm-12 col-xs-12 col-md-9">
+					<a title="" class="btn btn-primary change-project" href="javascript:;" data-original-title="popover Test" >Popover Example</a>        
+					<div class="hide" id="select-div">
+						<div class="col-sm-2 "  style="width:250px;">
+							<select class="form-control">
+								<option>Test</option>
+								<option>Test1</option>
+							</select>
+						</div>
+						<div class="clearfix col-sm-10" style="margin:8px 0;">
+							<button type="button" class="btn btn-default btn-go">Go!</button>
+							<button type="button" class="btn btn-default btn-cancel-option">Cancel</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="col-md-3 col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					BUKTI HAK 
+					<h3 class="panel-title">
+						<div class="pull-right">
+							<button type="button" class="btn btn-xs btn-danger" id="popover_proof"><span class="glyphicon glyphicon-plus"></span></button>
+						</div>                
+					</h3>
+				</div>
+				<div class="panel-body"></div>
+			</div>
+		</div>
+		<script>
+			$("#popover_proof").popover({
+				html: true,
+				content : '<select class="form-control"><option>Test</option><option>Test1</option></select>',
+				placement: "bottom",
+				trigger: "click"
+			});
+			
+			$('.change-project').popover({
+				placement : 'Right',
+				title : 'Change',
+				trigger : 'click',
+				html : true,
+				content : function(){
+					var content = '';
+					content = $('#select-div').html();
+					return content;
+				} 
+			}).on('shown.bs.popover', function(){
+			});
+		</script>
+    </body>
+</html>

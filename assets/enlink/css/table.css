@@ -1,0 +1,23 @@
+.dt-buttons a span, .dt-buttons button span {
+    margin-left: 20px;
+}
+.dt-buttons a span:before, .dt-buttons button span:before {
+    font-family: "anticon" !important;
+    position: absolute;
+    margin-left: -20px;
+}
+.buttons-new span:before {
+    content: "\e091";
+}
+.buttons-copy span:before {
+    content: "\5e";
+}
+.buttons-excel span:before {
+    content: "\e026";
+}
+.buttons-pdf span:before {
+    content: "\e02b";
+}
+.buttons-print span:before {
+    content: "\e095";
+}

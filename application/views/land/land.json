@@ -1,0 +1,134 @@
+{
+  "land_documents_code": "D125/25455",
+  "land_project_type": "1",
+  "land_physics": "1",
+  "mediator": "",
+  "loc_province": "11",
+  "loc_districts": "1101",
+  "loc_sub_district": "110107",
+  "loc_village": "1101072011",
+  "geolocation": "{\"draw\":{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"coordinates\":[[[97.09061877415786,3.409441239276333],[97.0917636687787,3.407217276956146],[97.09324893747453,3.408205705288367],[97.09219687214846,3.4103987770255486],[97.09061877415786,3.409441239276333]]],\"type\":\"Polygon\"}},\"view\":{\"center\":[97.08769465141268,3.4073408305541477],\"zoom\":14.47187593232816}}",
+  "map_id": "1",
+  "land_status_id": "1",
+  "land_project_id": "1",
+  "land_user_history_id": "1",
+  "land_id": "1",
+  "asal_owner": "Ardi",
+  "baru_owner": "Eko",
+  "ppjb_owner": "Guru",
+  "keterangan_owner": "taps",
+  "proof_type_id": { "1": { "1": "1257" } },
+  "by_doc": "5.566",
+  "by_remeas": "5.566",
+  "by_geo": "5.566",
+  "by_purchase": { "1": "5.566", "2": "2020" },
+  "by_market": {
+    "1": { "1": "5.566", "2": "2020" },
+    "2": { "1": "5.567", "2": "2020" },
+    "3": { "1": "5.568", "2": "2020" }
+  },
+  "by_njop": {
+    "1": { "1": "5.599", "2": "2020" },
+    "2": { "1": "5.768", "2": "2020" },
+    "3": { "1": "5.020", "2": "2020" }
+  },
+  "map_type_id": { "2": { "1": "75668" } },
+  "col_doc": {
+    "1": { "1": "0", "2": "" },
+    "2": { "1": "0", "2": "" },
+    "3": { "1": "1", "2": "bolcah", "3": "" },
+    "4": { "1": "0", "2": "bolcah", "3": "" },
+    "5": { "1": "0", "2": "bolcah", "3": "" }
+  }
+}
+
+[
+  {
+    "id_menu": "1",
+    "title": "KELOLA MENU",
+    "url": "kelolamenu",
+    "icon": "anticon anticon-build",
+    "is_main_menu": "18",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "2",
+    "title": "KELOLA PENGGUNA",
+    "url": "user",
+    "icon": "anticon anticon-lock",
+    "is_main_menu": "18",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "3",
+    "title": "level PENGGUNA",
+    "url": "userlevel",
+    "icon": "anticon anticon-flag",
+    "is_main_menu": "18",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "15",
+    "title": "Land",
+    "url": "Land",
+    "icon": "anticon anticon-appstore",
+    "is_main_menu": "0",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "18",
+    "title": "Pengaturan",
+    "url": "Pengaturan",
+    "icon": "anticon anticon-setting",
+    "is_main_menu": "0",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "34",
+    "title": "List",
+    "url": "Land",
+    "icon": "fa fa-database",
+    "is_main_menu": "15",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "35",
+    "title": "Create",
+    "url": "Land\/Create",
+    "icon": "fa fa-database",
+    "is_main_menu": "15",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "36",
+    "title": "Document Type",
+    "url": "Land_document_type",
+    "icon": "fa fa-database",
+    "is_main_menu": "15",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "38",
+    "title": "History",
+    "url": "user_history",
+    "icon": "anticon anticon-sync",
+    "is_main_menu": "0",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "39",
+    "title": "List",
+    "url": "user_history",
+    "icon": "fa fa-database",
+    "is_main_menu": "38",
+    "is_aktif": "y"
+  },
+  {
+    "id_menu": "40",
+    "title": "User Log",
+    "url": "user_history\/loging",
+    "icon": "fa fa-database",
+    "is_main_menu": "38",
+    "is_aktif": "y"
+  }
+]

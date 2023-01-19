@@ -1,0 +1,32 @@
+.drp-menu {
+    text-align: left;
+    padding: 12px 0;
+    list-style: none;
+    border-top: 1px solid rgb(220, 214, 214);
+    border-bottom: 1px solid rgb(220, 214, 214);
+    display: block;
+}
+.drp-menu ul {
+    padding-left: 20px;
+}
+.drp-menu > li > span {
+    display: inline-block;
+    padding: 3px 0;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.drp-menu i {
+    padding-right: 8px;
+}
+.drp-menu li {
+    list-style: none;
+    padding-left: 1px;
+}
+.midle {
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 7px;
+}
